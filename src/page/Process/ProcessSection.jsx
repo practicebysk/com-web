@@ -248,7 +248,7 @@ function ProcessSection() {
                 <div className="title-box d-flex align-items-center flex-column justify-content-center text-center">
                   <img
                     className="img-fluid"
-                    src="src/img/appdevelopment.svg"
+                    src="img/appdevelopment.svg"
                     alt="development"
                   />
                   <h3 className="h6 my-3 w-100">

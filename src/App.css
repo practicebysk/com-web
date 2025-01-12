@@ -2170,7 +2170,7 @@ img {
 #our-key-features::before {
   content: "";
   position: absolute;
-  background-image: url(../src/img/bg-white-hlis-logo.svg);
+  background-image: url(../img/bg-white-hlis-logo.svg);
   left: -22%;
   bottom: -6%;
   width: 75%;

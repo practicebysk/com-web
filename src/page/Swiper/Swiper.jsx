@@ -12,19 +12,6 @@ const SliderSection = () => {
   };
   const slidesData = [
     {
-      bannerClass: "mobile-banner-images",
-      title: [
-        { text: "Mobile App", className: "text-skyblue fst d-block" },
-        { text: "Development Company", className: "scd d-block" },
-      ],
-      ctaLink: "#",
-      ctaText: "Get A Quote",
-      ctaIcon: "src/img/arrow-right-white.svg",
-      ctaAlt: "right arrow",
-      imageSrc: "src/img/mobile-app-development.png",
-      imageAlt: "Mobile App Development",
-    },
-    {
       bannerClass: "website-banner-images",
       title: [
         { text: "Web", className: "text-pinkorange fst d-block" },
@@ -32,22 +19,35 @@ const SliderSection = () => {
       ],
       ctaLink: "#",
       ctaText: "Get A Quote",
-      ctaIcon: "src/img/arrow-right-white.svg",
+      ctaIcon: "img/arrow-right-white.svg",
       ctaAlt: "right arrow",
-      imageSrc: "src/img/web-development.png",
+      imageSrc: "img/web-development.png",
       imageAlt: "Web Development",
     },
+    {
+      bannerClass: "mobile-banner-images",
+      title: [
+        { text: "Mobile App", className: "text-skyblue fst d-block" },
+        { text: "Development Company", className: "scd d-block" },
+      ],
+      ctaLink: "#",
+      ctaText: "Get A Quote",
+      ctaIcon: "img/arrow-right-white.svg",
+      ctaAlt: "right arrow",
+      imageSrc: "img/mobile-app-development.png",
+      imageAlt: "Mobile App Development",
+    }
   ];
   const navigate = useNavigate();
 
   return (
     <section className="slider-sect position-relative">
-        <Particles
+      <Particles
         id="tsparticles"
         init={particlesInit}
         options={{
-          fullScreen:{
-           "enable":false
+          fullScreen: {
+            enable: false,
           },
           particles: {
             number: {
@@ -128,7 +128,11 @@ const SliderSection = () => {
                                 ))}
                               </h1>
                               <label className="mb-0 d-flex align-items-center read-more-btn mt-4">
-                                <a onClick={()=>navigate("/contact")} className="ml-3" title>
+                                <a
+                                  onClick={() => navigate("/contact")}
+                                  className="ml-3"
+                                  title
+                                >
                                   Get A Quote{" "}
                                   <img
                                     className="ml-3"

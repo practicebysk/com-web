@@ -5,20 +5,20 @@ import { useNavigate } from "react-router-dom";
 import * as Yup from "yup";
 
 const imgList = {
-  profile: "src/icon/profile.svg",
-  email: "src/icon/qmsg.svg",
-  call: "src/icon/call.svg",
-  whatsapp: "src/icon/whatsapp-contact.svg",
-  skype: "src/icon/skype-contact.svg",
-  location: "src/icon/location.svg",
-  message: "src/icon/msg.svg",
-  arrow: "src/icon/slider-arrow-blue.svg",
-  mumbai: "src/img/mumbai.svg",
-  ind_flag: "src/img/ind-flag.svg",
-  email_icon: "src/img/email-icon.svg",
-  email_img: "src/img/email-img.png",
-  skype_icon: "src/img/skype-icon.svg",
-  skype_png: "src/img/skype.png",
+  profile: "icon/profile.svg",
+  email: "icon/qmsg.svg",
+  call: "icon/call.svg",
+  whatsapp: "icon/whatsapp-contact.svg",
+  skype: "icon/skype-contact.svg",
+  location: "icon/location.svg",
+  message: "icon/msg.svg",
+  arrow: "icon/slider-arrow-blue.svg",
+  mumbai: "img/mumbai.svg",
+  ind_flag: "img/ind-flag.svg",
+  email_icon: "img/email-icon.svg",
+  email_img: "img/email-img.png",
+  skype_icon: "img/skype-icon.svg",
+  skype_png: "img/skype.png",
 };
 
 function ContactSection() {

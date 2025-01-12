@@ -3,14 +3,14 @@ import { useNavigate } from "react-router-dom";
 function AcoutUs() {
   const navigate = useNavigate();
   const imgList = {
-    facebook: "src/img/fb-icon.svg",
-    twitter: "src/img/twitter.svg",
-    instagram: "src/img/insta-icon.svg",
-    linkdin: "src/img/in-icon.svg",
-    skype: "src/img/skype.svg",
-    arrow_right: "src/img/arrow-right-white.svg",
-    mumbai: "src/img/mumbai.svg",
-    ind_flag: "src/img/ind-flag.svg",
+    facebook: "img/fb-icon.svg",
+    twitter: "img/twitter.svg",
+    instagram: "img/insta-icon.svg",
+    linkdin: "img/in-icon.svg",
+    skype: "img/skype.svg",
+    arrow_right: "img/arrow-right-white.svg",
+    mumbai: "img/mumbai.svg",
+    ind_flag: "img/ind-flag.svg",
   };
   return (
     <footer>

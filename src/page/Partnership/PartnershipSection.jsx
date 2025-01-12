@@ -22,7 +22,7 @@ function PartnershipSection() {
             <div className="card-box title-box bg-light-blue d-flex align-items-start flex-column">
               <img
                 className="img-fluid"
-                src="src/img/fixed-price-model-new.png"
+                src="img/fixed-price-model-new.png"
                 alt="fixed price model"
               />
               <h3 className="h5 title w-100 my-3">
@@ -42,7 +42,7 @@ function PartnershipSection() {
             <div className="card-box title-box bg-light-blue d-flex align-items-start flex-column">
               <img
                 className="img-fluid"
-                src="src/img/hire-dedicated-model.png"
+                src="img/hire-dedicated-model.png"
                 alt="hire dedicated model"
               />
               <h3 className="h5 title w-100 my-3">
@@ -63,7 +63,7 @@ function PartnershipSection() {
             <div className="card-box title-box bg-light-blue d-flex align-items-start flex-column">
               <img
                 className="img-fluid"
-                src="src/img/on-site-development-model-new.png"
+                src="img/on-site-development-model-new.png"
                 alt="on site development model"
               />
               <h3 className="h5 title w-100 my-3">
@@ -88,7 +88,7 @@ function PartnershipSection() {
                   <div className="card-box title-box bg-light-blue d-flex align-items-start flex-column">
                     <img
                       className="img-fluid"
-                      src="src/img/fixed-price-model-new.png"
+                      src="img/fixed-price-model-new.png"
                       alt="fixed price model"
                     />
                     <h3 className="h5 title w-100 my-3">
@@ -109,7 +109,7 @@ function PartnershipSection() {
                   <div className="card-box title-box bg-light-blue d-flex align-items-start flex-column">
                     <img
                       className="img-fluid"
-                      src="src/img/hire-dedicated-model.png"
+                      src="img/hire-dedicated-model.png"
                       alt="hire dedicated model"
                     />
                     <h3 className="h5 title w-100 my-3">
@@ -130,7 +130,7 @@ function PartnershipSection() {
                   <div className="card-box title-box bg-light-blue d-flex align-items-start flex-column">
                     <img
                       className="img-fluid"
-                      src="src/img/on-site-development-model-new.png"
+                      src="img/on-site-development-model-new.png"
                       alt="on site development model"
                     />
                     <h3 className="h5 title w-100 my-3">

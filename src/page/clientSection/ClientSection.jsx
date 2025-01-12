@@ -1,10 +1,10 @@
 function ClientSection() {
   const imgList = {
-    experience: "src/img/ux.png",
-    mobileApp: "src/img/dating-app.png",
-    website: "src/img/data.png",
-    milliApp: "src/img/app-development-ab.png",
-    webDesiDev: "src/img/web-development-2.png",
+    experience: "img/ux.png",
+    mobileApp: "img/dating-app.png",
+    website: "img/data.png",
+    milliApp: "img/app-development-ab.png",
+    webDesiDev: "img/web-development-2.png",
   };
   return (
     <section className="states-sect about-sect">

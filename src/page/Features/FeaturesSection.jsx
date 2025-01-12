@@ -3,56 +3,56 @@ import { Swiper, SwiperSlide } from "swiper/react";
 function FeaturesSection() {
   const features = [
     {
-      imgSrc: "src/img/okf-client-centric-development.svg",
+      imgSrc: "img/okf-client-centric-development.svg",
       alt: "client centric development",
       title: "Client Centric Development",
       description:
         "We craft the client's needs on web and mobile to tailor the solutions and enhance growth of the businesses.",
     },
     {
-      imgSrc: "src/img/okf-agile.svg",
+      imgSrc: "img/okf-agile.svg",
       alt: "agile development",
       title: "Agile Development",
       description:
         "We follow the Agile Development process that helps us to deliver the project with utmost quality and solid product for reliable and scalable business.",
     },
     {
-      imgSrc: "src/img/okf-dedicated-development-team.svg",
+      imgSrc: "img/okf-dedicated-development-team.svg",
       alt: "dedicated development team",
       title: "Dedicated Development Team",
       description:
         "Our skilled team leverage projects to provide best results. The team dedicates their every effort and does not look back until it's accomplished.",
     },
     {
-      imgSrc: "src/img/okf-excellent-support.svg",
+      imgSrc: "img/okf-excellent-support.svg",
       alt: "excellent support",
       title: "Excellent Support",
       description:
         "We are always there to assist our clients in every possible way to meet client's expectations and end needs.",
     },
     {
-      imgSrc: "src/img/okf-data-backups.svg",
+      imgSrc: "img/okf-data-backups.svg",
       alt: "data backups",
       title: "Data Backups",
       description:
         "The backups are the best options and we carefully maintain our clients project backups to deal with misfortunes in the best manner.",
     },
     {
-      imgSrc: "src/img/okf-data-security.svg",
+      imgSrc: "img/okf-data-security.svg",
       alt: "data protection",
       title: "Data Protection",
       description:
         "By signing an NDA, our company ensures the utmost safety of all your private data. We deliver best-rated products to maintain confidentiality.",
     },
     {
-      imgSrc: "src/img/okf-qa.svg",
+      imgSrc: "img/okf-qa.svg",
       alt: "quality deliverance",
       title: "Quality Deliverance",
       description:
         "We believe in delivering quality products to our clients by assuring all their project specifications at the best industry competitive price.",
     },
     {
-      imgSrc: "src/img/okf-growth.svg",
+      imgSrc: "img/okf-growth.svg",
       alt: "enhancement",
       title: "Enhancement",
       description:
