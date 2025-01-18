@@ -51,7 +51,7 @@ function AcoutUs() {
                   <a
                     className="d-inline-flex"
                     target="_blank"
-                    href="https://www.instagram.com/sat_technolab/"
+                    href="https://www.instagram.com/codegridt/"
                   >
                     <img src={imgList.instagram} alt="instagram" />
                   </a>
